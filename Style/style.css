@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@900&family=Open+Sans:wght@400;600&display=swap'); 
+
+:root {
+    --cor--primeira:#000000;
+    --cor--segunda:#F6F6F6;
+    --cor--terceira:#05F2D8;
+    --cor--quarta:#0388A6;
+
+    --fonte-primaria:"Krona One", sans-serif;
+    --fonte-secundaria:'Montserrat', sans-serif;
+    --fonte-texto:"Raleway", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color:var(--cor--primeira);
+    color: var(--cor--segunda);
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 100px;
+}
+
+.cabecalho__menu__link {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--cor--terceira);
+    text-decoration: none;
+}
+
+.titulo-destaque {
+    color:var(--cor--terceira);
+}
+
+
+.apresentacao {
+    padding: 8% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+
+}
+
+.apresentacao__conteudo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 1.5rem;
+    font-family: var(--fonte-texto);
+    line-height: 36px;
+    font-weight: 400;
+    
+}
+
+.apresentacao__conteudo__titulo__2{
+    font-size: 1.5rem;
+    font-family: var(--fonte-primaria);
+    color: var(--cor--quarta);
+    
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 1.5rem;
+    font-family: var(--fonte-texto);
+    font-weight: 400;
+    line-height: 36px;
+    text-decoration: none;
+    gap: 16px;
+    
+}
+
+.apresentacao__conteudo__texto__curriculo {
+    font-size: 1.0rem;
+    font-family: var(--fonte-texto);
+    font-weight: 400;
+    line-height: 36px;
+    text-decoration: none;
+    gap: 16px;
+}
+
+
+
+.apresentacao__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__links__subtitulo {
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 1.5rem;
+
+}
+
+
+.apresentacao__links__links {
+    /* background-color: #22D4FD; cor do botão(link) */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    text-align: center;
+    width: 50%;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color:var(--cor--segunda);
+    font-family: var(--fonte-secundaria);
+    border: 2px solid var(--cor--terceira);
+}
+
+.apresentacao__links__links__curriculo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color:var(--cor--segunda);
+    font-family: var(--fonte-texto);
+    border: 2px solid var(--cor--terceira);
+    
+    gap: 16px;
+}
+
+.apresentacao__links__links:hover{
+    cursor:pointer;
+    transition:1s;
+    background-color:var(--cor--quarta);
+    
+}
+
+.rodape {
+    color:var(--cor--segunda);
+    background-color:var(--cor--terceira);
+    padding: 24px;
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.foto__apresentacao {
+    border-radius: 50px;
+    border:2px solid var(--cor--terceira);
+    width: auto;
+    
+}
+
+@media (max-width:1054px){
+
+    .cabecalho {
+        padding: 6%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo{
+        width:auto;
+    }
+    .apresentacao__conteudo__texto__curriculo{
+        width: auto;
+    }
+}
+
+/* Color Theme Swatches in Hex
+.Arquitetura-1-hex { color: #0378A6; }
+.Arquitetura-2-hex { color: #024059; }
+.Arquitetura-3-hex { color: #0388A6; }
+.Arquitetura-4-hex { color: #05F2DB; }
+.Arquitetura-5-hex { color: #022601; }
+*/
+
+
