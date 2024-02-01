@@ -86,6 +86,7 @@ body {
     text-decoration: none;
     gap: 16px;
     
+    
 }
 
 .apresentacao__conteudo__texto__curriculo {
@@ -96,6 +97,7 @@ body {
     text-decoration: none;
     gap: 16px;
 }
+
 
 
 
@@ -112,6 +114,14 @@ body {
     font-weight: 400;
     font-size: 1.5rem;
 
+}
+
+.apresentacao__link__jogo{
+   font-family: var(--fonte-texto);
+   color:var(--cor--terceira);
+   font-size: 1.5rem;
+  
+   
 }
 
 
@@ -143,7 +153,6 @@ body {
     color:var(--cor--segunda);
     font-family: var(--fonte-texto);
     border: 2px solid var(--cor--terceira);
-    
     gap: 16px;
 }
 
