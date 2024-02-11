@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@900&family=Open+Sans:wght@400;600&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@900&family=Open+Sans:wght@400;600&display=swap');
 
 :root {
-    --cor--primeira:#000000;
-    --cor--segunda:#F6F6F6;
-    --cor--terceira:#05F2D8;
-    --cor--quarta:#0388A6;
+    --cor--primeira: #000000;
+    --cor--segunda: #F6F6F6;
+    --cor--terceira: #05F2D8;
+    --cor--quarta: #0388A6;
 
-    --fonte-primaria:"Krona One", sans-serif;
-    --fonte-secundaria:'Montserrat', sans-serif;
-    --fonte-texto:"Raleway", sans-serif;
+    --fonte-primaria: "Krona One", sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+    --fonte-texto: "Raleway", sans-serif;
 }
 
 * {
@@ -20,7 +20,7 @@
 
 body {
     box-sizing: border-box;
-    background-color:var(--cor--primeira);
+    background-color: var(--cor--primeira);
     color: var(--cor--segunda);
 }
 
@@ -39,11 +39,11 @@ body {
     font-weight: 600;
     color: var(--cor--terceira);
     text-decoration: none;
-   
+
 }
 
 .titulo-destaque {
-    color:var(--cor--terceira);
+    color: var(--cor--terceira);
 }
 
 
@@ -68,14 +68,14 @@ body {
     font-family: var(--fonte-texto);
     line-height: 36px;
     font-weight: 400;
-    
+
 }
 
-.apresentacao__conteudo__titulo__2{
+.apresentacao__conteudo__titulo__2 {
     font-size: 1.5rem;
     font-family: var(--fonte-primaria);
     color: var(--cor--quarta);
-    
+
 }
 
 .apresentacao__conteudo__texto {
@@ -85,8 +85,8 @@ body {
     line-height: 36px;
     text-decoration: none;
     gap: 16px;
-    
-    
+
+
 }
 
 .apresentacao__conteudo__texto__curriculo {
@@ -116,12 +116,12 @@ body {
 
 }
 
-.apresentacao__link__jogo{
-   font-family: var(--fonte-texto);
-   color:var(--cor--terceira);
-   font-size: 1.5rem;
-  
-   
+.apresentacao__link__jogo {
+    font-family: var(--fonte-texto);
+    color: var(--cor--terceira);
+    font-size: 1.5rem;
+    line-height: 3rem;
+
 }
 
 
@@ -136,7 +136,7 @@ body {
     border-radius: 8px;
     padding: 21.5px 0;
     text-decoration: none;
-    color:var(--cor--segunda);
+    color: var(--cor--segunda);
     font-family: var(--fonte-secundaria);
     border: 2px solid var(--cor--terceira);
 }
@@ -150,22 +150,22 @@ body {
     border-radius: 8px;
     padding: 21.5px 0;
     text-decoration: none;
-    color:var(--cor--segunda);
+    color: var(--cor--segunda);
     font-family: var(--fonte-texto);
     border: 2px solid var(--cor--terceira);
     gap: 16px;
 }
 
-.apresentacao__links__links:hover{
-    cursor:pointer;
-    transition:1s;
-    background-color:var(--cor--quarta);
-    
+.apresentacao__links__links:hover {
+    cursor: pointer;
+    transition: 1s;
+    background-color: var(--cor--quarta);
+
 }
 
 .rodape {
-    color:var(--cor--segunda);
-    background-color:var(--cor--terceira);
+    color: var(--cor--segunda);
+    background-color: var(--cor--terceira);
     padding: 24px;
     text-align: center;
     font-family: var(--fonte-secundaria);
@@ -175,12 +175,12 @@ body {
 
 .foto__apresentacao {
     border-radius: 50px;
-    border:2px solid var(--cor--terceira);
+    border: 2px solid var(--cor--terceira);
     width: auto;
-    
+
 }
 
-@media (max-width:1054px){
+@media (max-width:1054px) {
 
     .cabecalho {
         padding: 6%;
@@ -195,10 +195,11 @@ body {
         padding: 5%;
     }
 
-    .apresentacao__conteudo{
-        width:auto;
+    .apresentacao__conteudo {
+        width: auto;
     }
-    .apresentacao__conteudo__texto__curriculo{
+
+    .apresentacao__conteudo__texto__curriculo {
         width: auto;
     }
 }
@@ -210,5 +211,3 @@ body {
 .Arquitetura-4-hex { color: #05F2DB; }
 .Arquitetura-5-hex { color: #022601; }
 */
-
-
