@@ -31,14 +31,21 @@ body {
 .cabecalho__menu {
     display: flex;
     gap: 100px;
-    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background-color: var(--cor--terceira);
+
 }
 
 .cabecalho__menu__link {
+
     font-family: var(--fonte-secundaria);
     font-size: 1.25rem;
     font-weight: 600;
-    color: var(--cor--terceira);
+    color: var(--cor--segunda);
     text-decoration: none;
 
 }
@@ -172,6 +179,7 @@ body {
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
     font-weight: 600;
+
 }
 
 .foto__apresentacao {
